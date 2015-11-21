@@ -195,3 +195,6 @@ BOARD_HARDWARE_CLASS += \
 
 # inherit from the proprietary version
 -include vendor/oneplus/oneplus2/BoardConfigVendor.mk
+
+# QCOM Clang 3.6
+USE_CLANG_QCOM := true
